@@ -1,4 +1,4 @@
-# Crush_02
+# Crush_01(offline version)
 
 This project is dedicated to crush.  
 I wanted to show her something I created, but it was a little challenging for me.  
@@ -11,4 +11,4 @@ CHALLENGES>>>
 To solve this, I wrote a **basic website** and added **AI-inspired features** to make it more attractive.  
 Everything was designed to run without internet, so it could still feel special and interactive.  
 
-Story behind **Crush_02** 
+Story behind **Crush_01(offline version)** 
