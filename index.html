@@ -1,79 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Do You Like Me? 💕</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- Background animation elements -->
     <div class="background-effects">
-        <div class="floating-hearts"></div>
-        <div class="sparkles"></div>
+      <div class="floating-hearts"></div>
+      <div class="sparkles"></div>
     </div>
-    
+
     <!-- Main container -->
     <div class="container">
-        <div class="page active" id="index-page">
-            <div class="content">
-                <h1 class="main-title animate-bounce">Do You Like Me? 🤗</h1>
-                <p class="subtitle animate-fade-in">~I am all yours...</p>
-                <div class="button-container">
-                    <button class="btn btn-yes" onclick="showPage('yes')">Yes 💕</button>
-                    <button class="btn btn-no" onclick="showPage('no1')">No 😔</button>
-                </div>
-            </div>
+      <div class="page active" id="index-page">
+        <div class="content">
+          <h1 class="main-title animate-bounce">Do You Like Me? 🤗</h1>
+          <p class="subtitle animate-fade-in">~I am all yours...</p>
+          <div class="button-container">
+            <button class="btn btn-yes" onclick="showPage('yes')">
+              Yes 💕
+            </button>
+            <button class="btn btn-no" onclick="showPage('no1')">No 😔</button>
+          </div>
         </div>
+      </div>
 
-        <div class="page" id="no1-page">
-            <div class="content">
-                <h1 class="main-title animate-bounce">Please think again! 😥</h1>
-                <p class="subtitle animate-fade-in">itni jaldi na matt bolo🙄</p>
-                <div class="button-container">
-                    <button class="btn btn-yes" onclick="showPage('yes')">Yes 💕</button>
-                    <button class="btn btn-no" onclick="showPage('no2')">No 😔</button>
-                </div>
-            </div>
+      <div class="page" id="no1-page">
+        <div class="content">
+          <h1 class="main-title animate-bounce">Please think again! 😥</h1>
+          <p class="subtitle animate-fade-in">itni jaldi na matt bolo🙄</p>
+          <div class="button-container">
+            <button class="btn btn-yes" onclick="showPage('yes')">
+              Yes 💕
+            </button>
+            <button class="btn btn-no" onclick="showPage('no2')">No 😔</button>
+          </div>
         </div>
+      </div>
 
-        <div class="page" id="no2-page">
-            <div class="content">
-                <h1 class="main-title animate-bounce">Ek aur baar Soch lo! 🥺</h1>
-                <p class="subtitle animate-fade-in">kyu aisa kar rahi ho 😣</p>
-                <div class="button-container">
-                    <button class="btn btn-yes" onclick="showPage('yes')">Yes 💕</button>
-                    <button class="btn btn-no" onclick="showPage('no3')">No 😔</button>
-                </div>
-            </div>
+      <div class="page" id="no2-page">
+        <div class="content">
+          <h1 class="main-title animate-bounce">Ek aur baar Soch lo! 🥺</h1>
+          <p class="subtitle animate-fade-in">kyu aisa kar rahi ho 😣</p>
+          <div class="button-container">
+            <button class="btn btn-yes" onclick="showPage('yes')">
+              Yes 💕
+            </button>
+            <button class="btn btn-no" onclick="showPage('no3')">No 😔</button>
+          </div>
         </div>
+      </div>
 
-        <div class="page" id="no3-page">
-            <div class="content">
-                <h1 class="main-title animate-bounce">Baby Man jao na! Kitna bhav khaogi💔💔💔</h1>
-                <p class="subtitle animate-fade-in">bhut glt baat hai yaar😭</p>
-                <div class="button-container">
-                    <button class="btn btn-yes" onclick="showPage('yes')">Yes 💕</button>
-                    <button class="btn btn-no moving-button" id="moving-no-btn" onclick="showPage('no3')">No 😔</button>
-                </div>
-            </div>
+      <div class="page" id="no3-page">
+        <div class="content">
+          <h1 class="main-title animate-bounce">
+            Baby Man jao na! Kitna bhav khaogi💔💔💔
+          </h1>
+          <p class="subtitle animate-fade-in">bhut glt baat hai yaar😭</p>
+          <div class="button-container">
+            <button class="btn btn-yes" onclick="showPage('yes')">
+              Yes 💕
+            </button>
+            <button
+              class="btn btn-no moving-button"
+              id="moving-no-btn"
+              onclick="showPage('no3')"
+            >
+              No 😔
+            </button>
+          </div>
         </div>
+      </div>
 
-        <div class="page" id="yes-page">
-            <div class="content">
-                <h1 class="main-title animate-bounce celebrate-text">Hehehehe, I knew it! Love you a lot </h1>
-                <div class="celebration-effects">
-                    <div class="confetti"></div>
-                    <div class="falling-hearts"></div>
-                </div>
-                <button class="btn btn-restart" onclick="showPage('index')">You Know Me 😘</button>
-            </div>
+      <div class="page" id="yes-page">
+        <div class="content">
+          <h1 class="main-title animate-bounce celebrate-text">
+            Hehehehe, I knew it! Love you a lot
+          </h1>
+          <div class="celebration-effects">
+            <div class="confetti"></div>
+            <div class="falling-hearts"></div>
+          </div>
+          <button class="btn btn-restart" onclick="showPage('index')">
+            You Know Me 😘
+          </button>
         </div>
+      </div>
     </div>
 
     <!-- Emoji popup container -->
     <div class="emoji-container"></div>
 
     <script src="app.js"></script>
-</body>
+    <!-- false updaate-->
+  </body>
 </html>
